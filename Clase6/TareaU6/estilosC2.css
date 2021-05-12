@@ -1,0 +1,36 @@
+.contenedor{
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    border-style: solid;
+    width: 600px;
+    height: 600px;
+}
+.item:first-child{
+    width: 200px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    background-color: red;
+}
+.item:nth-child(2){
+    width: 200px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    background-color: blue;
+}
+.item:last-child{
+    width: 200px;
+    height: 200px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    background-color: green;
+}
