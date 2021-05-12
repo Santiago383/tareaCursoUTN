@@ -1,0 +1,45 @@
+p{
+    color: darkblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+h1{
+    text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
+
+    font-family: 'Kaushan Script', cursive;
+    background: linear-gradient(to right, azure, bisque); 
+    color: maroon;
+}
+h2{
+    font-family: 'Fira Sans', sans-serif;
+
+    font-family: 'Kaushan Script', cursive;
+    background: linear-gradient(to right, azure, bisque);
+    color: maroon;
+}
+h3{
+    font-family: 'Fira Sans', sans-serif;
+
+    font-family: 'Kaushan Script', cursive;
+    background: linear-gradient(to right, azure, bisque);
+    color: maroon;
+}
+h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(to right, azure, bisque);
+    color: maroon;
+}
+li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: darkblue;
+}
+body{
+    background-color: bisque;
+}
+label{
+    color: darkblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
