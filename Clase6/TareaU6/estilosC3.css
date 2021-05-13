@@ -4,8 +4,6 @@
     flex-direction: row;
     justify-content: space-between;
     border-style: solid;
-    height: 200px;
-    width: 1400px;
 }
 .item:first-child{
     width: 200px;
