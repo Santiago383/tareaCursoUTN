@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cómo Viajo</title>
+</head>
+<body>
+    <p>Escribí una distancia (en metros) para obtener el medio de transporte adecuado</p>
+
+    <input id="distancia" placeholder="Ingresar Distancia"/>
+
+    <button onclick="definirMedio()" id="btn1">Calcular Medio</button>
+
+    <p id="demo"></p>
+
+    <script>
+        function definirMedio() {
+            var distancia, medio;
+
+
+            distancia = document.getElementById("distancia").value;
+            if (distancia > 0 && distancia <= 1000) {
+                medio = 'pie'
+            } else if (distancia > 1000 && distancia <= 10000) {
+                medio = 'bicicleta'
+            } else if (distancia > 10000 && distancia <= 30000) {
+                medio = 'colectivo'
+            } else if (distancia > 30000 && distancia <= 100000) {
+                medio = 'auto'
+            } else if (distancia > 100000) {
+                medio = 'avión'
+            } else {
+                medio = 'ingresar una distancia válida'
+            }
+            document.getElementById("demo").innerHTML = medio;
+        }
+    </script>
+
+</body>
+</html>
