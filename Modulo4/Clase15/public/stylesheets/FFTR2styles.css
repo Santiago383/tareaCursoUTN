@@ -1,0 +1,169 @@
+/* font-family: 'Open Sans', sans-serif; */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+header{
+    background-color: #1e1f26;
+    padding: 1em 0;
+}
+header h1{
+    color: white;
+    font-size: 2.5em;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+}
+nav{
+    background-color: #283655;
+    margin-bottom: 2em;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    width: 16.3%;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.4em 0.4em;
+}
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+nav ul li a.activo{
+    background-color: #1e1f26;
+}
+footer{
+    background-color: #ccc;
+    clear: both;
+    color: #333;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+h2{
+    color: #2e64a1;
+    font-weight: 400;
+    margin: 0 0 1em; 
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+/*inicio home*/
+.homeimg{
+    margin-bottom: 1.5em;
+}
+.welcome{
+    box-sizing: border-box;
+    width: 75%;
+    padding-right: 2em;
+}
+/*fin home*/
+
+/*inicio about*/
+.flex-container{
+    display: flex;
+    background-color: #d0e1f9;
+    align-content: space-between;
+    border-style: solid;
+    border-color: #4d648d;
+    margin: 2em;
+    padding: 1em;
+}
+.About1, .About2, .About3, .About4{
+    padding: 0.5em;
+}
+/*fin about*/
+
+/*inicio features*/
+.Features1, .Features2, .Features3, .Features4{
+    padding: 0.5em;
+}
+/*fin features*/
+
+/*inicio howtoplay*/
+ul{
+    list-style: square;
+}
+.howtoplay{
+    padding: 0.5em;
+}
+/*fin howtoplay*/
+
+/*inicio downloads*/
+.download{
+    padding: 0.5em;
+}
+/*fin downloads*/
+
+/*inicio contacto*/
+.columna{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0.6em;
+}
+
+.columna.left{
+    border-right: 1px solid gray;
+}
+
+.columna.right p{
+    font-size: 0.9em;
+}
+
+.columna.right ul li{
+    font-size: 0.8em;
+}
+
+.formulario label{
+    vertical-align: top;
+    width: 20%;
+    display: inline-block;
+}
+
+.formulario input,
+.formulatio textarea{
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 0.4em 0.6em;
+    font-size: 0.8em;
+    width: 70%;
+}
+
+.formulario input[type="submit"]{
+    background-color: #6da9ed;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    color: white;
+    font-size: 1em;
+    width: auto;
+    cursor: pointer;
+}
+
+.formulario textarea{
+    height: 10em;
+    resize: none;
+}
+
+.formulario .acciones{
+    text-align: center;
+}
+
+/*fin contacto*/
